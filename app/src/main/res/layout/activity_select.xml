@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/splash_welcome">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="bottom|center"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/zh_btn"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:background="@drawable/btn_bg_red"
+            android:gravity="center"
+            android:text="账户登录"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            />
+
+        <Button
+            android:id="@+id/sm_btn"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:background="@drawable/btn_bg_green"
+            android:gravity="center"
+            android:text="扫码登录"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            />
+
+
+
+    </LinearLayout>
+
+    
+</LinearLayout>
