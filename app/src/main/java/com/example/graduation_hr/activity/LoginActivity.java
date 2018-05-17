@@ -182,8 +182,8 @@ public class LoginActivity extends Activity
     }
 
     /**
-     * 模拟登录情况
-     * 用户名csdn，密码123456，就能登录成功，否则登录失败
+     * 模拟登录
+     *
      */
     private void login() {
 

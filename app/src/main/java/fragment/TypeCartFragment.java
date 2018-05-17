@@ -93,7 +93,7 @@ public class TypeCartFragment extends Fragment {
 
     // String url="http://172.20.10.4:8080/ai";//这里填写的是电脑端的IP
     // String url="http://192.168.1.104:8080/ai";//这里填写的是电脑端的IP
-    String url = "http://192.168.1.104:8080/ai";//这里填写的是电脑端的IP
+    String url = "http://192.168.1.109:8080/ai";//这里填写的是电脑端的IP
     private View view1;
 
     @Override
